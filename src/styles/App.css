@@ -30,7 +30,6 @@ html {
   background: goldenrod;
 }
 .app {
-   
     color: white;
     text-align: center;
 }
@@ -39,4 +38,8 @@ div {
 }
 h1 {
   text-align: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;  
 }
