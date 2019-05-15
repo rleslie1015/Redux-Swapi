@@ -13,7 +13,7 @@ export const FAILURE = "FAILURE";
 export const fetchChars = () => dispatch => {
     dispatch({ type: FETCHING });
     axios
-    .get(`https://swapi.co/api/peopl/`)
+    .get(`https://swapi.co/api/people/`)
     .then(res => {
         dispatch({ type: SUCCESS, payload: res.data });
 
